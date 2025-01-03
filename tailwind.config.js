@@ -10,7 +10,7 @@ export default {
         center: true, // Centers the container by default
         padding: '2rem', // Adds padding to the container
         screens: {
-          sm: '100%', // Full width on small screens
+          sm: '640px', // Full width on small screens
           md: '768px', // 768px width for medium screens
           lg: '1024px', // 1024px width for large screens
           xl: '1280px', // 1280px width for extra-large screens
@@ -21,8 +21,8 @@ export default {
         colorWhiteSecondary: "#727272",
       },
       fontFamily: {
-        sans: ['Roboto', 'sans-serif'], // For Google Fonts
-        custom: ['CustomFont', 'sans-serif'], // For Local Fonts
+        manrope: ['Manrope', 'sans-serif'], // For Google Fonts
+        jakarta: ['PlusJakartaSans', 'sans-serif'], // For Local Fonts
       },
     },
   },

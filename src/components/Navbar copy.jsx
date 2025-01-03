@@ -7,8 +7,6 @@ const Navbar = () => {
   // Function to handle closing the menu
   const closeMenu = () => setIsOpen(false);
 
-  
-
   return (
     <div className="bg-bgColor w-screen relative">
       <div className="container">
